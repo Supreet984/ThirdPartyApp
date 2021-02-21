@@ -11,7 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ThirdPartyDemoApp">
-        <activity android:name=".LandingScreen"></activity>
+        <activity
+            android:name=".splashScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/Theme.ThirdPartyDemoApp.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LandingScreen" />
         <activity android:name=".SignUp" />
         <activity android:name=".Homeactivity" />
         <activity android:name=".MainActivity">

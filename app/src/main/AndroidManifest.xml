@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ThirdPartyDemoApp">
+        <activity android:name=".Phoneverification"></activity>
         <activity
             android:name=".splashScreen"
             android:configChanges="orientation|keyboardHidden|screenSize"
